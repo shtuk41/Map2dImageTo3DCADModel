@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map rows="5" columns="5">
+	<row>
+		<node x2d="0" y2d="0" x3d="" y3d="" z3d=""/>
+		<node x2d="20" y2d="0" x3d="" y3d="" z3d=""/>
+		<node x2d="40" y2d="0" x3d="" y3d="" z3d=""/>
+		<node x2d="60" y2d="0" x3d="" y3d="" z3d=""/>
+		<node x2d="80" y2d="0" x3d="" y3d="" z3d=""/>
+	</row>
+	<row>
+		<node x2d="0" y2d="20" x3d="" y3d="" z3d=""/>
+		<node x2d="20" y2d="20" x3d="" y3d="" z3d=""/>
+		<node x2d="40" y2d="20" x3d="" y3d="" z3d=""/>
+		<node x2d="60" y2d="20" x3d="" y3d="" z3d=""/>
+		<node x2d="80" y2d="20" x3d="" y3d="" z3d=""/>
+	</row>
+	<row>
+		<node x2d="0" y2d="40" x3d="" y3d="" z3d=""/>
+		<node x2d="20" y2d="40" x3d="" y3d="" z3d=""/>
+		<node x2d="40" y2d="40" x3d="" y3d="" z3d=""/>
+		<node x2d="60" y2d="40" x3d="" y3d="" z3d=""/>
+		<node x2d="80" y2d="40" x3d="" y3d="" z3d=""/>
+	</row>
+	<row>
+		<node x2d="0" y2d="60" x3d="" y3d="" z3d=""/>
+		<node x2d="20" y2d="60" x3d="" y3d="" z3d=""/>
+		<node x2d="40" y2d="60" x3d="" y3d="" z3d=""/>
+		<node x2d="60" y2d="60" x3d="" y3d="" z3d=""/>
+		<node x2d="80" y2d="60" x3d="" y3d="" z3d=""/>
+	</row>
+	<row>
+		<node x2d="0" y2d="80" x3d="" y3d="" z3d=""/>
+		<node x2d="20" y2d="80" x3d="" y3d="" z3d=""/>
+		<node x2d="40" y2d="80" x3d="" y3d="" z3d=""/>
+		<node x2d="60" y2d="80" x3d="" y3d="" z3d=""/>
+		<node x2d="80" y2d="80" x3d="" y3d="" z3d=""/>
+	</row>
+</map>
+

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsFormsLab", "WindowsFormsLab\WindowsFormsLab.vcxproj", "{7ADAE2E7-024C-42D9-AB92-9E29E7FE9C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ADAE2E7-024C-42D9-AB92-9E29E7FE9C12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7ADAE2E7-024C-42D9-AB92-9E29E7FE9C12}.Debug|Win32.Build.0 = Debug|Win32
+		{7ADAE2E7-024C-42D9-AB92-9E29E7FE9C12}.Release|Win32.ActiveCfg = Release|Win32
+		{7ADAE2E7-024C-42D9-AB92-9E29E7FE9C12}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
