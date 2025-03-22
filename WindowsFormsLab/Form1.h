@@ -119,15 +119,15 @@ namespace WindowsFormsLab {
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->fileToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->open2DToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->exitToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->restoreToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->pictureBox2D))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->pictureBox3D))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownRows))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownColumns))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownX))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownY))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownZ))->BeginInit();
+			this->exitToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2D))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3D))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownRows))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownColumns))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownX))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownY))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownZ))->BeginInit();
 			this->menuStrip1->SuspendLayout();
 			this->SuspendLayout();
 			// 
@@ -182,22 +182,22 @@ namespace WindowsFormsLab {
 			// numericUpDownRows
 			// 
 			this->numericUpDownRows->Location = System::Drawing::Point(1057, 61);
-			this->numericUpDownRows->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) {31, 0, 0, 0});
-			this->numericUpDownRows->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) {2, 0, 0, 0});
+			this->numericUpDownRows->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 31, 0, 0, 0 });
+			this->numericUpDownRows->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 2, 0, 0, 0 });
 			this->numericUpDownRows->Name = L"numericUpDownRows";
 			this->numericUpDownRows->Size = System::Drawing::Size(75, 20);
 			this->numericUpDownRows->TabIndex = 5;
-			this->numericUpDownRows->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) {2, 0, 0, 0});
+			this->numericUpDownRows->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 2, 0, 0, 0 });
 			// 
 			// numericUpDownColumns
 			// 
 			this->numericUpDownColumns->Location = System::Drawing::Point(1057, 108);
-			this->numericUpDownColumns->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) {23, 0, 0, 0});
-			this->numericUpDownColumns->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) {2, 0, 0, 0});
+			this->numericUpDownColumns->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 23, 0, 0, 0 });
+			this->numericUpDownColumns->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 2, 0, 0, 0 });
 			this->numericUpDownColumns->Name = L"numericUpDownColumns";
 			this->numericUpDownColumns->Size = System::Drawing::Size(75, 20);
 			this->numericUpDownColumns->TabIndex = 6;
-			this->numericUpDownColumns->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) {2, 0, 0, 0});
+			this->numericUpDownColumns->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 2, 0, 0, 0 });
 			// 
 			// buttonSave
 			// 
@@ -265,10 +265,11 @@ namespace WindowsFormsLab {
 			this->buttonAdd->TabIndex = 14;
 			this->buttonAdd->Text = L"Add";
 			this->buttonAdd->UseVisualStyleBackColor = true;
+			this->buttonAdd->Click += gcnew System::EventHandler(this, &Form1::buttonAdd_Click);
 			// 
 			// menuStrip1
 			// 
-			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) {this->fileToolStripMenuItem});
+			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->fileToolStripMenuItem });
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Size = System::Drawing::Size(1169, 24);
@@ -277,8 +278,10 @@ namespace WindowsFormsLab {
 			// 
 			// fileToolStripMenuItem
 			// 
-			this->fileToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {this->open2DToolStripMenuItem, 
-				this->restoreToolStripMenuItem, this->exitToolStripMenuItem});
+			this->fileToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+				this->open2DToolStripMenuItem,
+					this->restoreToolStripMenuItem, this->exitToolStripMenuItem
+			});
 			this->fileToolStripMenuItem->Name = L"fileToolStripMenuItem";
 			this->fileToolStripMenuItem->Size = System::Drawing::Size(37, 20);
 			this->fileToolStripMenuItem->Text = L"File";
@@ -286,22 +289,22 @@ namespace WindowsFormsLab {
 			// open2DToolStripMenuItem
 			// 
 			this->open2DToolStripMenuItem->Name = L"open2DToolStripMenuItem";
-			this->open2DToolStripMenuItem->Size = System::Drawing::Size(152, 22);
+			this->open2DToolStripMenuItem->Size = System::Drawing::Size(120, 22);
 			this->open2DToolStripMenuItem->Text = L"Open 2D";
 			this->open2DToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::menuItemOpen2D_Click);
-			// 
-			// exitToolStripMenuItem
-			// 
-			this->exitToolStripMenuItem->Name = L"exitToolStripMenuItem";
-			this->exitToolStripMenuItem->Size = System::Drawing::Size(152, 22);
-			this->exitToolStripMenuItem->Text = L"Exit";
 			// 
 			// restoreToolStripMenuItem
 			// 
 			this->restoreToolStripMenuItem->Name = L"restoreToolStripMenuItem";
-			this->restoreToolStripMenuItem->Size = System::Drawing::Size(152, 22);
+			this->restoreToolStripMenuItem->Size = System::Drawing::Size(120, 22);
 			this->restoreToolStripMenuItem->Text = L"Restore";
 			this->restoreToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::menuItemRestore_Click);
+			// 
+			// exitToolStripMenuItem
+			// 
+			this->exitToolStripMenuItem->Name = L"exitToolStripMenuItem";
+			this->exitToolStripMenuItem->Size = System::Drawing::Size(120, 22);
+			this->exitToolStripMenuItem->Text = L"Exit";
 			// 
 			// Form1
 			// 
@@ -328,13 +331,13 @@ namespace WindowsFormsLab {
 			this->Name = L"Form1";
 			this->Text = L"2D to 3D Mapping Tool";
 			this->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Form1::Form1_Paint);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->pictureBox2D))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->pictureBox3D))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownRows))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownColumns))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownX))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownY))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->numericUpDownZ))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2D))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3D))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownRows))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownColumns))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownX))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownY))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownZ))->EndInit();
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
 			this->ResumeLayout(false);
@@ -498,6 +501,8 @@ private: System::Void menuItemRestore_Click(System::Object^  sender, System::Eve
 				numericUpDownRows->Value = rows;
 				numericUpDownColumns->Value = columns;
 		 }
+private: System::Void buttonAdd_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
 

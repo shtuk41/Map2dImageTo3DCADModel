@@ -1,67 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<map rows="7" columns="7">
+<map rows="4" columns="4">
 	<row>
-		<node x2d="824" y2d="501" x3d="" y3d="" z3d=""/>
-		<node x2d="1003" y2d="501" x3d="" y3d="" z3d=""/>
-		<node x2d="1182" y2d="501" x3d="" y3d="" z3d=""/>
-		<node x2d="1361" y2d="501" x3d="" y3d="" z3d=""/>
-		<node x2d="1541" y2d="501" x3d="" y3d="" z3d=""/>
-		<node x2d="1720" y2d="501" x3d="" y3d="" z3d=""/>
-		<node x2d="1899" y2d="501" x3d="" y3d="" z3d=""/>
+		<node x2d="300" y2d="758" x3d="" y3d="" z3d=""/>
+		<node x2d="419" y2d="825" x3d="" y3d="" z3d=""/>
+		<node x2d="582" y2d="896" x3d="" y3d="" z3d=""/>
+		<node x2d="755" y2d="976" x3d="" y3d="" z3d=""/>
 	</row>
 	<row>
-		<node x2d="824" y2d="680" x3d="" y3d="" z3d=""/>
-		<node x2d="1003" y2d="680" x3d="" y3d="" z3d=""/>
-		<node x2d="1182" y2d="680" x3d="" y3d="" z3d=""/>
-		<node x2d="1361" y2d="680" x3d="" y3d="" z3d=""/>
-		<node x2d="1541" y2d="680" x3d="" y3d="" z3d=""/>
-		<node x2d="1720" y2d="680" x3d="" y3d="" z3d=""/>
-		<node x2d="1899" y2d="680" x3d="" y3d="" z3d=""/>
+		<node x2d="329" y2d="918" x3d="" y3d="" z3d=""/>
+		<node x2d="438" y2d="972" x3d="" y3d="" z3d=""/>
+		<node x2d="579" y2d="1043" x3d="" y3d="" z3d=""/>
+		<node x2d="752" y2d="1136" x3d="" y3d="" z3d=""/>
 	</row>
 	<row>
-		<node x2d="824" y2d="860" x3d="" y3d="" z3d=""/>
-		<node x2d="1003" y2d="860" x3d="" y3d="" z3d=""/>
-		<node x2d="1182" y2d="860" x3d="" y3d="" z3d=""/>
-		<node x2d="1361" y2d="860" x3d="" y3d="" z3d=""/>
-		<node x2d="1541" y2d="860" x3d="" y3d="" z3d=""/>
-		<node x2d="1720" y2d="860" x3d="" y3d="" z3d=""/>
-		<node x2d="2419" y2d="887" x3d="" y3d="" z3d=""/>
+		<node x2d="342" y2d="1056" x3d="" y3d="" z3d=""/>
+		<node x2d="457" y2d="1132" x3d="" y3d="" z3d=""/>
+		<node x2d="598" y2d="1206" x3d="" y3d="" z3d=""/>
+		<node x2d="752" y2d="1286" x3d="" y3d="" z3d=""/>
 	</row>
 	<row>
-		<node x2d="824" y2d="1039" x3d="" y3d="" z3d=""/>
-		<node x2d="1003" y2d="1039" x3d="" y3d="" z3d=""/>
-		<node x2d="1182" y2d="1039" x3d="" y3d="" z3d=""/>
-		<node x2d="1361" y2d="1039" x3d="" y3d="" z3d=""/>
-		<node x2d="1541" y2d="1039" x3d="" y3d="" z3d=""/>
-		<node x2d="1720" y2d="1039" x3d="" y3d="" z3d=""/>
-		<node x2d="1899" y2d="1039" x3d="" y3d="" z3d=""/>
-	</row>
-	<row>
-		<node x2d="824" y2d="1218" x3d="" y3d="" z3d=""/>
-		<node x2d="1003" y2d="1218" x3d="" y3d="" z3d=""/>
-		<node x2d="1182" y2d="1218" x3d="" y3d="" z3d=""/>
-		<node x2d="1361" y2d="1218" x3d="" y3d="" z3d=""/>
-		<node x2d="1541" y2d="1218" x3d="" y3d="" z3d=""/>
-		<node x2d="1720" y2d="1218" x3d="" y3d="" z3d=""/>
-		<node x2d="1899" y2d="1218" x3d="" y3d="" z3d=""/>
-	</row>
-	<row>
-		<node x2d="824" y2d="1397" x3d="" y3d="" z3d=""/>
-		<node x2d="1003" y2d="1397" x3d="" y3d="" z3d=""/>
-		<node x2d="1182" y2d="1397" x3d="" y3d="" z3d=""/>
-		<node x2d="1361" y2d="1397" x3d="" y3d="" z3d=""/>
-		<node x2d="1541" y2d="1397" x3d="" y3d="" z3d=""/>
-		<node x2d="1720" y2d="1397" x3d="" y3d="" z3d=""/>
-		<node x2d="1899" y2d="1397" x3d="" y3d="" z3d=""/>
-	</row>
-	<row>
-		<node x2d="824" y2d="1576" x3d="" y3d="" z3d=""/>
-		<node x2d="1003" y2d="1576" x3d="" y3d="" z3d=""/>
-		<node x2d="1182" y2d="1576" x3d="" y3d="" z3d=""/>
-		<node x2d="1361" y2d="1576" x3d="" y3d="" z3d=""/>
-		<node x2d="1541" y2d="1576" x3d="" y3d="" z3d=""/>
-		<node x2d="1559" y2d="2231" x3d="" y3d="" z3d=""/>
-		<node x2d="2401" y2d="2123" x3d="" y3d="" z3d=""/>
+		<node x2d="358" y2d="1180" x3d="" y3d="" z3d=""/>
+		<node x2d="470" y2d="1248" x3d="" y3d="" z3d=""/>
+		<node x2d="601" y2d="1331" x3d="" y3d="" z3d=""/>
+		<node x2d="745" y2d="1404" x3d="" y3d="" z3d=""/>
 	</row>
 </map>
 
